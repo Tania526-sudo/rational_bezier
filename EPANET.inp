@@ -1,0 +1,14 @@
+[JUNCTIONS]
+;ID         Elevation  Demand    Pattern
+ J1         100        10.5      
+ J2         100        12.0      
+
+[COORDINATES]
+;Node       X-Coord   Y-Coord
+ J1         0         0
+ J2         200       100
+
+
+ [PIPES]
+;ID         Node1   Node2   Length  Diameter  Roughness  MinorLoss  Status
+ P1         J1      J2      250     300       100        0          Open
